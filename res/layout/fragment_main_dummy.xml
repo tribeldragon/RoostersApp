@@ -1,0 +1,289 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/slot1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour1"
+                    style="@style/Hour"
+                    android:text="1" />
+
+                <TextView
+                    android:id="@+id/class1"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time1"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot1"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour2"
+                    style="@style/Hour"
+                    android:text="2" />
+
+                <TextView
+                    android:id="@+id/class2"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time2"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot2"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour3"
+                    style="@style/Hour"
+                    android:text="3" />
+
+                <TextView
+                    android:id="@+id/class3"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time3"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot3"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour4"
+                    style="@style/Hour"
+                    android:text="4" />
+
+                <TextView
+                    android:id="@+id/class4"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time4"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot4"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour5"
+                    style="@style/Hour"
+                    android:text="5" />
+
+                <TextView
+                    android:id="@+id/class5"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time5"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot5"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour6"
+                    style="@style/Hour"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/class6"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time6"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot6"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour7"
+                    style="@style/Hour"
+                    android:text="7" />
+
+                <TextView
+                    android:id="@+id/class7"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time7"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot7"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour8"
+                    style="@style/Hour"
+                    android:text="8" />
+
+                <TextView
+                    android:id="@+id/class8"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time8"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <View style="@style/Separator" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/slot9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slot8"
+            tools:context=".MainActivity$DummySectionFragment" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hour9"
+                    style="@style/Hour"
+                    android:text="9" />
+
+                <TextView
+                    android:id="@+id/class9"
+                    style="@style/Class" />
+
+                <TextView
+                    android:id="@+id/time9"
+                    style="@style/Time"
+                    android:text="test" />
+            </LinearLayout>
+
+            <!-- <View style="@style/Separator" /> -->
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

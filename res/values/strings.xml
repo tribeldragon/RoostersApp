@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Roosters?</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="refresh_settings">Verversen</string>
+    <string name="title_section1">maandag</string>
+    <string name="title_section2">dinsdag</string>
+    <string name="title_section3">woensdag</string>
+    <string name="title_section4">donderdag</string>
+    <string name="title_section5">vrijdag</string>
+    <string name="title_activity_start_up">StartUpActivity</string>
+    <string name="hello_world">Bezig met laden</string>
+
+</resources>

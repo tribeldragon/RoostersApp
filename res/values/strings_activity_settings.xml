@@ -1,0 +1,105 @@
+<resources>
+
+    <string name="title_activity_settings">Instellingen</string>
+
+	<string name="pref_title_type">Soort rooster</string>
+	<string name="pref_title_class">Klas</string>
+	
+	<string-array name="pref_type_list_titles">
+	    <item>Leerling</item>
+ 	    <item>Docent</item>
+	</string-array>
+	<string-array name="pref_type_list_values">
+	    <item>0</item>
+	    <item>1</item>
+	</string-array>
+	
+	<string-array name="pref_class_titles">
+	    <item>320LH DEV41A</item>
+	    <item>320LH DEV42A</item>
+	    <item>320LH DEV43A</item>
+	    <item>320LH MBI33A</item>
+	    <item>320LH MBI33B</item>
+	    <item>320LH MEDB41A</item>
+	    <item>320LH MEDB41B</item>
+	    <item>320LH MEDB42A</item>
+	    <item>320LH MEDB43A</item>
+	    <item>320LH MEDB43B</item>
+	    <item>320LH MEDB44A</item>
+	    <item>320LH MI21A</item>
+	    <item>320LH MI22A</item>
+	    <item>320LH MV41A</item>
+	    <item>320LH MV42A</item>
+	    <item>320LH MV43GV</item>
+	    <item>320LH MV43IV</item>
+	    <item>320LH MV44A</item>
+	</string-array>
+	<string-array name="pref_class_values">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	</string-array>
+	
+	<string-array name="pref_teacher_titles">
+	    <item>bitj</item>
+	    <item>boed0</item>
+	    <item>boyk</item>
+	    <item>ceta</item>
+	    <item>dema</item>
+	    <item>hala</item>
+	    <item>howi</item>
+	    <item>huhe</item>
+	    <item>joed</item>
+	    <item>kaju</item>
+	    <item>kuke</item>
+	    <item>ovak</item>
+	    <item>paro</item>
+	    <item>rewi</item>
+	    <item>sore</item>
+	    <item>teyv</item>
+	    <item>uyeh</item>
+	    <item>voja</item>
+	    <item>wiea</item>
+	    <item>zeri</item>
+	    <item>zuja</item>
+	</string-array>
+	<string-array name="pref_teacher_values">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	</string-array>
+	
+</resources>
